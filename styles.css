@@ -1,0 +1,65 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  height: 100vh;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  height: inherit;
+  width: inherit;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-container {
+  height: fit-content;
+  width: 600px;
+  background-color: #10172a;
+  border-radius: 8px;
+  padding: 32px;
+  box-shadow: rgba(16, 23, 42 48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: whitesmoke;
+}
+
+.image-and-name {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image-and-name img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.image-and-name h2 {
+  margin: 20px 0px;
+  font-size: 40px;
+}
+
+.fun-fact {
+  width: 100%;
+  padding: 0rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fun-fact p {
+  margin-top: 1rem;
+  color: rgb(148, 163, 184);
+}
